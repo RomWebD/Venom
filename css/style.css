@@ -78,13 +78,5 @@ max-width: 423px;
     right: 0;
 }
 .blood{
-    background-image: url("../img/blood.png") ;
-    background-position: top right;
-    background-repeat: no-repeat;
-}
-.background{
-    background-image: url("../img/background.jpg") ;
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;    
+    background: url(../img/blood.png) top right no-repeat , url(../img/background.jpg) center center /100% ;
 }
